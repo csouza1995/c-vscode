@@ -1,6 +1,9 @@
 {
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Min Dark",
+    "workbench.tree.indent": 24,
+    "editor.mouseWheelZoom": false,
+    "workbench.productIconTheme": "fluent-icons",
     "workbench.iconTheme":"material-icon-theme",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
@@ -9,6 +12,7 @@
         // 80,
         // 100
     ],
+    "workbench.sideBar.location": "left",
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
@@ -16,7 +20,7 @@
     "explorer.compactFolders": false,
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": true,
-    // "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "hidden",
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
@@ -60,5 +64,6 @@
     "apc.listRow": {
         "height": 24
     },
-    "symbols.hidesExplorerArrows": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "editor.inlineSuggest.enabled": true,
 }
