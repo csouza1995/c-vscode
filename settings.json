@@ -1,13 +1,13 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "workbench.colorTheme": "Min Dark",
     "workbench.iconTheme":"material-icon-theme",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
     "editor.rulers": [
-        80,
-        120
+        // 80,
+        // 100
     ],
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
@@ -27,6 +27,7 @@
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "package.json": "package-lock*, yarn*, .eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+        "composer.json": "composer.lock",
         "tailwind.config.js": "tailwind.config*, postcss.config*",
         ".env.local": ".env*",
         ".env": ".env*"
