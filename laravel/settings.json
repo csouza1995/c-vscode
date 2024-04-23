@@ -1,0 +1,34 @@
+{
+    // Blade Formatter
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "[blade]": {
+        "editor.formatOnSave": true,
+        "editor.autoClosingBrackets": "always",
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+
+    // PHP
+    "php.suggest.basic": false,
+    "php.validate.executablePath": "/usr/bin/php",
+    "phpmd.verbose": true,
+    "phpmd.rules": "cleancode,codesize,controversial,design,unusedcode,naming",
+    
+    // PHP-CS-Fixer
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.showOutput": false,
+    "php-cs-fixer.autoFixByBracket": false,
+    "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.config": ".php-cs-fixer.php;.php_cs;.php_cs.dist",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "files.autoSave": "onFocusChange",
+    "php-cs-fixer.lastDownload": 1658446584908,
+    
+    // Php unit config
+    "phpunit.files": "{test,tests}/**/*Test.php",
+
+    // intelephense
+    "intelephense.environment.phpVersion": "8.0.0",
+}
